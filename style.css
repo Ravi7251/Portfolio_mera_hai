@@ -1,0 +1,199 @@
+.header{
+    background-color: #ceedc7a1;
+    
+    /* background-color: #5BC0F8; */
+    text-align: center;
+    position: fixed;
+    top: 1%;
+    left: 0.5%;
+    width: 96%;
+    height: auto;
+    border-radius: 36px;
+    padding: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    margin-left: 0px;
+    font-weight: bold;
+    font-size: larger;
+    z-index: 2;
+}
+
+.header:hover {
+    color: #065647;
+    background-color: aquamarine;
+    border: red dotted 1px;
+}
+
+.Name_Plate{
+    background-color: #CEEDC7;
+    /* background-color: #5BC0F8; */
+    margin-top: 5%;
+    position: relative;
+    top: 50px;
+    border-radius:15px;
+    text-align: center;
+    margin-left:15%;
+    padding: 15px;
+    width: 70%;
+    border: 2px solid #065647;
+}
+
+.Name_Plate:hover{
+    width: 90%;
+    margin-left: 5%;
+    background-color: aquamarine;
+}
+
+.Name{
+    font-size:3.5em;
+    color: #5b0182;
+    font-weight:500;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.TagLine{
+    font-size:2.5em;
+    font-style: bold;
+    font-family:fantasy;
+}
+
+.Last{
+    font-size:2em;
+    font-style: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.flex-container{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    width: 110%;    
+}
+
+/* .tech{
+    width: 451.75px;
+} */
+
+.exp:hover{
+    margin-left: 2px;
+}
+.edu:hover{
+    margin-left: 2px;
+}
+.tech:hover{
+    margin-left: 2px;
+}
+
+.intro{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+/* .intro.ravi:hover{
+    flex-direction: row-reverse;
+} */
+
+.ravi{
+    height: 250px;
+}
+
+.msg{
+    position: relative;
+    right: 5%;
+    height: 250px;
+    font-family: cursive;
+    font-size: large;
+    color: white;
+}
+
+
+.niche{
+    text-align: center;
+    font-size:xx-large;
+    font-family: cursive;
+    font-weight: bold;
+    color: white;
+}
+
+.End{
+    width: 90%;
+    margin-left: 36%;
+}
+
+.Footer{
+    background-color:#CEEDC7 ;
+    padding: 2%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:600px)
+{
+    html{
+        font-size: 50%;
+    }
+    .header{
+        width: 71.5%;
+    }
+    .Name_Plate{
+        width: auto;
+        font-size: 70%;
+        margin: 10% 10% 10%;    
+    }
+    .flex-container{
+        flex-direction: column;
+    }
+    .exp{
+        position: relative;
+        left: 5%;
+        margin-bottom: -15%;
+    }
+    .edu{
+        position: relative;
+        left: 5%;
+        margin-bottom: -15%;
+    }
+    .tech{
+        position: relative;
+        left: 5%;
+    }
+
+    .intro{
+        flex-direction:column ;
+        column-gap: 5px;
+    }
+
+    .ravi{
+        position: relative;
+        left: 20%;
+    }
+    .msg{
+        position: relative;
+        top: -50px;
+        text-align: center;
+    }
+
+    .niche{
+        font-size: 2vh;
+        position: relative;
+        top: 110px;
+    }
+
+    .End{
+        position: relative;
+        top: 140px;
+    }
+
+    .Footer{
+        position: relative;
+        top: 150px;
+    }
+}
