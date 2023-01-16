@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 .header{
     background-color: #ceedc7a1;
     
@@ -141,7 +145,8 @@ a:link {
         font-size: 50%;
     }
     .header{
-        width: 71.5%;
+        width: 50%;
+        font-size: 1.7em;
     }
     .Name_Plate{
         width: auto;
@@ -189,11 +194,14 @@ a:link {
 
     .End{
         position: relative;
+        width: 150%;
         top: 140px;
+        left: -25px;
     }
 
     .Footer{
         position: relative;
         top: 150px;
+        font-size: 1.4em;
     }
 }
